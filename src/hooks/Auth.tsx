@@ -8,7 +8,7 @@ interface SignInCredentials {
 
 interface AuthContextData {
   name: string;
-  signIn(crendentials: SignInCredentials): Promise<void>;
+  signIn(credentials: SignInCredentials): Promise<void>;
 }
 
 export const AuthContext = createContext<AuthContextData>(
