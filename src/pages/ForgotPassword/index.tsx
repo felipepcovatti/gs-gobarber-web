@@ -94,6 +94,7 @@ const ForgotPassword: React.FC = () => {
           </Link>
         </AnimationContainer>
       </Content>
+
       <Background />
     </Container>
   );
